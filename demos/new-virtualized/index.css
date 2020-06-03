@@ -3,15 +3,16 @@
   height: 500px;
   overflow: scroll;
   background: cyan;
+  width: 100%;
 }
 
 .item {
   width: 3000px;
+  overflow-x: auto;
 }
 
-
 .item span {
-  height: 30px;
+  height:30px;
   display: inline-block;
   width: 50px;
 }

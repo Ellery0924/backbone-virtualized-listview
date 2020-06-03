@@ -39,6 +39,7 @@ module.exports = {
     loaders: [
       // jade
       { test: /\.jade$/, loader: 'jade-loader' },
+      { test: /\.mustache/, loader: 'mustache-loader' },
       // jade-end
       // es2015
       { test: /\.js$/, exclude: /\bnode_modules\b/, loader: 'babel-loader' },
