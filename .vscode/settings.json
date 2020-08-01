@@ -1,0 +1,16 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "eslint.options": {
+    "configFile": ".eslintrc.yaml"
+},
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "files.associations": {
+      "*.es": "javascript"
+    },
+    "files.trimTrailingWhitespace": true,
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true
+    }
+}

@@ -1,0 +1,11 @@
+.container {
+  position: relative;
+  height: 500px;
+  overflow: scroll;
+  background: cyan;
+}
+
+.item span {
+  display: inline-block;
+  width: 50px;
+}
